@@ -15,7 +15,7 @@ function mostrarMenu() {
 
   rl.question("Elige una figura (1-4): ", opcion => {
     if (opcion.toLowerCase() === "salir") {
-      console.log("¡Hasta luego!");
+      console.log("¡Adioos!");
       rl.close();
       return;
     }
